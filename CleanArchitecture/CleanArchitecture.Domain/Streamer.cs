@@ -9,6 +9,5 @@ namespace CleanArchitecture.Domain
         public string? Url { get; set; }
 
         public ICollection<Video>? Videos { get; set; }
-
     }
 }
