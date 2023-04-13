@@ -10,6 +10,6 @@ public class MappingProfile : Profile
     public MappingProfile()
     {
         CreateMap<Video, VideosVm>();
-        CreateMap<StreamerCommand, Streamer>();
+        CreateMap<CreateStreamerCommand, Streamer>();
     }
 }
